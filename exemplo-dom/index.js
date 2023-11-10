@@ -1,10 +1,19 @@
-const pai = document.getElementById("pai");
-const btn = document.getElementById("btn");
-btn.addEventListener("click", funcExecute);
+const divConteiner = document.getElementById("conteiner")
+const btn = document.getElementById("btn")
+btn.addEventListener("click", funcExecute)
 
 function funcExecute() {
-  for (i = 0; i < 100; i++) {
-    console.log("Função executada!" + i);
-    const p = document.createElement("p");
-  }
+  const divCriada = document.createElement("div")
+  divCriada.innerHTML = "Div criada no html"
+  console.log(divCriada)
+  divConteiner.appendChild (divCriada)
+
+  const primeiroFilho = divConteiner.firstElementChild
+  const segundoFilho = primeiroFilho.nextElementSibling
+  const terceiroFilho = segundoFilho.nextElementSibling
+
+  console.log(primeiroFilho)
+  console.log(segundoFilho)
+  console.log(terceiroFilho)
+  
 }
