@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+
+  main {
+    display: flex;
+    justify-content: stretch;
+    padding: 20px;
+  }
+
+  .origem {
+    color: #e2bd2b;
+    font-size: 40px;
+    margin: 0;
+  }
+
+  #btn1, #btn2, #btn3 {
+      background-color: #e2bd2b;
+      width: 350px;
+      border: none;
+      font-size: 2rem;
+      padding: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  #col1, #col2, #col3 {
+    margin: 0 0px 0 45px;
+  }
+
+  #col1 > form, #col2 > form, #col3 > form{
+    width: 350px;
+  }
+
+  form > * {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  label,
+  fieldset {
+    margin-top: 10px;
+  }
+
+  input[type="image"],
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input[type="image"]{
+    width: 200px;
+  }
+
+  select {
+    margin: 10px 0;
+  }
+
+  #submit {
+    margin-top: 20px;
+    margin-bottom:50px;
+  }
+
+  fieldset {
+    border: 1px solid;
+  }
+  datalist{
+    display: none;
+  }
+
+  meter,
+  progress,
+  input[type="color"], 
+  input[type="range"] {
+    height: 50px;
+  }
