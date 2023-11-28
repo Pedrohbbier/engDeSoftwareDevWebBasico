@@ -212,10 +212,47 @@ btn2.addEventListener("click", ()=>{
 
         const lblName = document.createElement("label");
         lblName.textContent = "Label nome criada";
+        const inputName = document.createElement("input");
+
+        const inputName2 = document.createElement("input");
+        const lblMail = document.createElement('label')
+        lblMail.textContent = "Label email criada"
+
+        const inputName3 = document.createElement('input')
+        const lblWebsite = document.createElement('label')
+        lblWebsite.textContent = 'Label website criada'
+
+        const labelNumero = document.createElement("label");
+        labelNumero.textContent = "Label numero criada";
+        const inputNumero = document.createElement("input");
+        inputNumero.type= "number";
+
+        const labelNascimento = document.createElement('label')
+        labelNascimento.textContent = "Label nascimento criada"
+        const inputNascimento = document.createElement('input')
+        inputNascimento.type = "datetime"
+
+        const labelHora = document.createElement('label')
+        labelHora.textContent = "Label hora criada"
+        const inputHora = document.createElement('input')
+        inputHora.type = "time"
 
         form3.appendChild(lblName);
-
-        const inputName = document.createElement("input");
         form3.appendChild(inputName);
+
+        form3.appendChild(lblMail)
+        form3.appendChild(inputName2)
+
+        form3.appendChild(lblWebsite)
+        form3.appendChild(inputName3)
+
+        form3.appendChild(labelNumero)
+        form3.appendChild(inputNumero)
+
+        form3.appendChild(labelNascimento)
+        form3.appendChild(inputNascimento)
+          
+        form3.appendChild(labelHora)
+        form3.appendChild(inputHora)
 
       })
